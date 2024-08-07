@@ -1,0 +1,22 @@
+.navbar{
+    background-color: rgb(9, 9, 99);
+    color: white;
+    max-height: 15vh;
+    display: flex;
+    align-items: center;
+}
+.logo > img{
+    max-height: 12vh;
+    margin-right: 20px;
+}
+.cart{
+    margin-left: auto;
+    margin-right: 60px;
+}
+.cart > span{
+    position: relative;
+    bottom: 10px;
+}
+.header > h1,.cart > i{
+    cursor: pointer;
+}

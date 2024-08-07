@@ -1,0 +1,32 @@
+.cartpage{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-gap: 30px;
+}
+.cart-in > button{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+ }
+ .cart-in{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: rgb(247, 244, 244);
+     padding: 10px 80px;
+ }
+ .cart-in > img{
+     max-height: 40vh;
+     max-width: 100%;
+     margin-bottom: 5px;
+ }
+ .cart-in > p{
+     font-size: small;
+ }
